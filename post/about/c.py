@@ -69,14 +69,14 @@ def getlists (OO0O0OOOOOO0OOOO0 ):#line:105
         OO0OOOO000OO000O0 =OO0OOOO000OO000O0 ['data']['comments']#line:114
         OOOOOO00OO0OO0O00 =len (OO0OOOO000OO000O0 )#line:115
         if OOOOOO00OO0OO0O00 == 0:
-            OOOOOO00OO0OO0O00 = random.randint(80, 100)
+            OOOOOO00OO0OO0O00 = randint(80, 100)
             print (f'=======未找到记录，随机{OOOOOO00OO0OO0O00}条记录=======')
         else:
             print (f'=======共找到{OOOOOO00OO0OO0O00}条记录=======')#line:116
         OOOOO00O00O0O000O =0 #line:117
         while OOOOO00O00O0O000O <OOOOOO00OO0OO0O00 :#line:118
             if len (OO0OOOO000OO000O0 ) == 0:
-                OO00O0OOO000O0OO0 = str(random.randint(10000000, 99999999))
+                OO00O0OOO000O0OO0 = str(randint(10000000, 99999999))
             else:
                 OO00O0OOO000O0OO0 = OO0OOOO000OO000O0 [OOOOO00O00O0O000O ]['creator']['uid']#line:119
             OO00O0OO000O0OO0O =getlink (OO00O0OOO000O0OO0 )#line:120
