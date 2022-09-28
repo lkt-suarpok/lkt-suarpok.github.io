@@ -69,7 +69,7 @@ def getlists (OO0O0OOOOOO0OOOO0 ):#line:105
         OO0OOOO000OO000O0 =OO0OOOO000OO000O0 ['data']['comments']#line:114
         OOOOOO00OO0OO0O00 =len (OO0OOOO000OO000O0 )#line:115
         if OOOOOO00OO0OO0O00 == 0:
-            OOOOOO00OO0OO0O00 = randint(80, 100)
+            OOOOOO00OO0OO0O00 = randint(300, 500)
             print (f'=======未找到记录，随机{OOOOOO00OO0OO0O00}条记录=======')
         else:
             print (f'=======共找到{OOOOOO00OO0OO0O00}条记录=======')#line:116
