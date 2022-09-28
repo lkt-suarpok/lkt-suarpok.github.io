@@ -71,7 +71,7 @@ def getlists (OO0O0OOOOOO0OOOO0 ):#line:105
         if OOOOOO00OO0OO0O00 == 0:
             OOOOOO00OO0OO0O00 = random.randint(80, 100)
             print (f'=======未找到记录，随机{OOOOOO00OO0OO0O00}条记录=======')
-         else:
+        else:
             print (f'=======共找到{OOOOOO00OO0OO0O00}条记录=======')#line:116
         OOOOO00O00O0O000O =0 #line:117
         while OOOOO00O00O0O000O <OOOOOO00OO0OO0O00 :#line:118
